@@ -2,8 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 using System.Security.Cryptography;
-namespace Blockchain.Model
-{
+
     public class Block
     {
         public long Index { get; set; }
@@ -30,4 +29,3 @@ namespace Blockchain.Model
         }
 
     }
-}
